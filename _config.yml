@@ -1,22 +1,22 @@
 menu:
     Blog: /
     Archive: /archives/
-    Weibo: http://weibo.com/sunchongsheng
-    GitHub: https://github.com/pinggod
+    GitHub: https://github.com/jm00oo
+    LinkedIn: https://www.linkedin.com/jhih-ming-huang-a8a58965/
     Rss: /atom.xml
 
 favicon: /favicon.png
-logo: /favicon.png
+logo:  https://avatars1.githubusercontent.com/jm00oo?v=3&s=466
 
 # Comment
 # e.g disqus: seansun
-disqus:
+disqus: jm00oo
 duoshuo:
 cloudTie:
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+ga: UA-67286515-1
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2017

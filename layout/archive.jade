@@ -2,6 +2,8 @@ extends partial/layout
 
 block container
     include mixins/post
+    .tags-cloud
+        != tagcloud({min_font:15})
     +postList()
 
 block pagination
