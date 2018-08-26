@@ -8,6 +8,18 @@ html(lang=config.language)
                 a.logo-link(href=url_for())
                     img(src=url_for(theme.logo) alt="logo")
                 include nav
+            div
+                script
+                    | (function() {
+                    | var cx = '004391125048398203013:hevsprflyjw';
+                    | var gcse = document.createElement('script');
+                    | gcse.type = 'text/javascript';
+                    | gcse.async = true;
+                    | gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                    | var s = document.getElementsByTagName('script')[0];
+                    | s.parentNode.insertBefore(gcse, s);
+                    | })();
+                gcse:search
             main.container
                 block container
             footer
