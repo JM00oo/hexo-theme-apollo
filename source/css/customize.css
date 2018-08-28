@@ -27,3 +27,24 @@
 .tag-link:hover {
     font-weight: 700;
 }
+
+#local-search-input {
+  margin-left:10px;
+  border-radius:10px;
+  border-style: solid;
+  padding-left: 10px;
+  border-color: #4285f4;
+  height: 25px;
+}
+input[type=text]:focus {
+    outline: inherit;
+}
+#site_search {
+  margin-top:2em;
+}
+i.fa.fa-search {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #4285f4;
+  height: 25px;
+}
